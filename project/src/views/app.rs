@@ -16,10 +16,10 @@ pub fn AppPage() -> Element {
             h1 { "This is the App Page!" }
             br {}
             br {}
-            p { " -> Image [Round Table of C Suite Members]" }
+            p { " -> Image [Round Table of Department Heads]" }
             img {
                 src: ROUND_TABLE_SVG,
-                alt: "Round Table of C Suite Members",
+                alt: "Round Table of Department Heads",
                 style: "max-width: 400px; border-radius: 8px;"
             }
             br {}
@@ -27,30 +27,30 @@ pub fn AppPage() -> Element {
             br {}
             br {}
             
-            p { " -> Select Input: to selected a C Suite Member" }
+            p { " -> Select Input: to selected a Department Head" }
             p { "(Idea is that you're only focused on one person at a time)" }
             br {}
             // Select input
-            label { "Selected C Suite Member: " }
+            label { "Selected Department Head: " }
             select {
-                option { value: "Chief Product Officer", "Chief Product Officer" }
-                option { value: "Chief Marketing Officer", "Chief Marketing Officer" }
-                option { value: "Chief Financial Officer", "Chief Financial Officer" }
-                option { value: "Chief Operating Officer", "Chief Operating Officer" }
-                option { value: "Chief Growth Officer", "Chief Growth Officer" }
-                option { value: "Chief Technology Officer", "Chief Technology Officer" }
-                option { value: "Chief Legal Officer", "Chief Legal Officer" }
-                option { value: "Chief Strategy Officer", "Chief Strategy Officer" }
-                option { value: "Chief Information Secutiy Officer", "Chief Information Secutiy Officer" }
-                option { value: "Chief People Officer", "Chief People Officer" }
+                option { value: "Head of Product", "Head of Product" }
+                option { value: "Head of Marketing", "Head of Marketing" }
+                option { value: "Head of Financial", "Head of Financial" }
+                option { value: "Head of Operating", "Head of Operating" }
+                option { value: "Head of Growth", "Head of Growth" }
+                option { value: "Head of Technology", "Head of Technology" }
+                option { value: "Head of Legal", "Head of Legal" }
+                option { value: "Head of Strategy", "Head of Strategy" }
+                option { value: "Head of Information Security", "Head of Information Security" }
+                option { value: "Head of People", "Head of People" }
             }
             br {}
             br {}
             // Select input
-            label { "Question To Ask C Suite Member:" }
+            label { "Question To Ask Department Head:" }
             select {
-                option { value: "What's up?", "What's up?" }
                 option { value: "What of these products are underpriced?", "What of these products are underpriced?" }
+                option { value: "What's up?", "What's up?" }
                 
             }
              p { "^ Question options change depending on which member is selected." }

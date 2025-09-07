@@ -1,0 +1,7 @@
+/Users/jim/Git-Projects/dioxus-gpt/project/target/wasm32-unknown-unknown/wasm-dev/deps/stable_deref_trait-6e3f803a4c95972f.d: /Users/jim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable_deref_trait-1.2.0/src/lib.rs
+
+/Users/jim/Git-Projects/dioxus-gpt/project/target/wasm32-unknown-unknown/wasm-dev/deps/libstable_deref_trait-6e3f803a4c95972f.rlib: /Users/jim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable_deref_trait-1.2.0/src/lib.rs
+
+/Users/jim/Git-Projects/dioxus-gpt/project/target/wasm32-unknown-unknown/wasm-dev/deps/libstable_deref_trait-6e3f803a4c95972f.rmeta: /Users/jim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable_deref_trait-1.2.0/src/lib.rs
+
+/Users/jim/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable_deref_trait-1.2.0/src/lib.rs:

@@ -10,14 +10,15 @@ pub fn Hero() -> Element {
             // Attributes should be defined in the element before any children
             id: "hero",
             // After all attributes are defined, we can define child elements and components
-            img { src: HEADER_SVG, id: "header" }
+            // img { src: HEADER_SVG, id: "header" }
+            h1 { "Department Heads App" }
             div { id: "links",
                 // The RSX macro also supports text nodes surrounded by quotes
-                a { href: "https://dioxuslabs.com/learn/0.6/", "📚 Learn Dioxus" }
-                a { href: "https://dioxuslabs.com/awesome", "🚀 Awesome Dioxus" }
-                a { href: "https://github.com/dioxus-community/", "📡 Community Libraries" }
-                a { href: "https://github.com/DioxusLabs/sdk", "⚙️ Dioxus Development Kit" }
-                a { href: "https://marketplace.visualstudio.com/items?itemName=DioxusLabs.dioxus", "💫 VSCode Extension" }
+                a { href: "https://dioxuslabs.com/learn/0.6/", "📚 Learn" }
+                a { href: "https://dioxuslabs.com/awesome", "🚀 Get Starter" }
+                // a { href: "https://github.com/dioxus-community/", "📡 Community Forums" }
+                a { href: "https://github.com/DioxusLabs/sdk", "⚙️ Development Kit" }
+                a { href: "https://marketplace.visualstudio.com/items?itemName=DioxusLabs.dioxus", "💫 Chrome Extension" }
                 a { href: "https://discord.gg/XgGxMSkvUM", "👋 Community Discord" }
             }
         }
