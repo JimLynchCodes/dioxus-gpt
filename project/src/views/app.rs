@@ -1,5 +1,6 @@
 use crate::components::Hero;
 use dioxus::prelude::*;
+use crate::views::CeoForm;
 
 const ROUND_TABLE_SVG: Asset = asset!("/assets/cards-table.jpg");
 
@@ -14,6 +15,13 @@ pub fn AppPage() -> Element {
             
             // Content
             h1 { "This is the App Page!" }
+            br {}
+            br {}
+            br {}
+
+            CeoForm {}
+
+            br {}
             br {}
             br {}
             p { " -> Image [Round Table of Department Heads]" }
