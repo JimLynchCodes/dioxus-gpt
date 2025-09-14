@@ -22,3 +22,6 @@ pub use settings::Settings;
 
 mod navbar;
 pub use navbar::Navbar;
+
+mod ceo_form;
+pub use ceo_form::CeoForm;

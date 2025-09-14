@@ -2,6 +2,7 @@ use crate::Route;
 use dioxus::prelude::*;
 
 const NAVBAR_CSS: Asset = asset!("/assets/styling/navbar.css");
+const HEADER_LOGO: Asset = asset!("assets/department-heads-logo-v1.png");
 
 /// The Navbar component that will be rendered on all pages of our app since every page is under the layout.
 ///
@@ -15,17 +16,26 @@ pub fn Navbar() -> Element {
 
         div {
             id: "navbar",
-            Link {
-                to: Route::Home {},
-                "Home"
+            div {
+                id: "navbar-left",
+                img {
+                    src: HEADER_LOGO
+                }
             }
-            Link {
-                to: Route::AppPage {},
-                "App" 
-            }
-            Link {
-                to: Route::Settings { id: 1 },
-                "Settings"
+            div {
+                id: "navbar-right",
+                Link {
+                    to: Route::Home {},
+                    "Home"
+                }
+                Link {
+                    to: Route::AppPage {},
+                    "App" 
+                }
+                Link {
+                    to: Route::Settings { id: 1 },
+                    "Settings"
+                }
             }
         }
 

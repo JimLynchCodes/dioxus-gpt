@@ -17,11 +17,23 @@ pub fn AppPage() -> Element {
             br {}
             br {}
             p { " -> Image [Round Table of Department Heads]" }
-            img {
-                src: ROUND_TABLE_SVG,
-                alt: "Round Table of Department Heads",
-                style: "max-width: 400px; border-radius: 8px;"
-            }
+            // div {
+            //     id "table-wrapper"
+                img {
+                    src: ROUND_TABLE_SVG,
+                    alt: "Round Table of Department Heads",
+                    style: "width: 98%; border-radius: 8px;"
+                }
+
+                div {
+                    id: "selected-heads"
+
+
+
+                }
+
+
+            // }
             br {}
             br {}
             br {}

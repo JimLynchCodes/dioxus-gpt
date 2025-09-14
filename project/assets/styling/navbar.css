@@ -3,6 +3,10 @@
   flex-direction: row;
 }
 
+#navbar-right {
+  margin-left: auto; /* pushes it all the way right */
+}
+
 #navbar a {
   color: #ffffff;
   margin-right: 20px;
